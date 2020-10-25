@@ -7,7 +7,6 @@
 body {
   margin: 0;
   font-family: "Lobster", cursive;
-  font-size: 4em;
   color: antiquewhite;
   text-align: center;
   padding: 30px;
@@ -15,14 +14,13 @@ body {
   background-size: cover;
 }
 .title {
-  font-size: 1em;
+  font-size: 370%;
 }
 .timer {
-  padding: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  font-style: bold;
+  font-weight: 900;
 }
 
 .field {
@@ -31,5 +29,6 @@ body {
   align-items: center;
   min-width: 250px;
   margin: 20px;
-  font-style: bold;
+
+  font-size: 250%;
 }
